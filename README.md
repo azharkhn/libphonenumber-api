@@ -5,6 +5,16 @@ This is a python based API wrapped from Google libphonenumber library.
 * Number can be provided in any format i.e. with spaces, characters etc.
 * Phonenumber’s Length must be within range of 4 to 20.
 
+# Dependencies
+## Python 
+```
+$ apt-get install python-pip
+$ pip install phonenumbers flask dicts
+```
+## Apache
+```
+# apt-get install libapache2-mod-wsgi
+```
 # Apache Configuration
 Create a Virtual host to access this API in apache
 ```
