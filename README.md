@@ -8,8 +8,8 @@ This is a python based API wrapped from Google libphonenumber library.
 # Dependencies
 ## Python 
 ```
-$ apt-get install python-pip
-$ pip install phonenumbers flask dicts
+# apt-get install python-pip
+# pip install phonenumbers flask dicts
 ```
 ## Apache
 ```
@@ -24,11 +24,6 @@ Create a Virtual host to access this API in apache
 		ServerAlias phonenumber.example.com
                 WSGIScriptAlias / /home/example.com/libphonenumber-api/phonenumber.wsgi
 		<Directory /home/example.com/libphonenumber-api/phonenumber/>
-			Order allow,deny
-			Allow from all
-		</Directory>
-		Alias /static /home/example.com/libphonenumber-api/static
-		<Directory /home/example.com/libphonenumber-api/static/>
 			Order allow,deny
 			Allow from all
 		</Directory>
