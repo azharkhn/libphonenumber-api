@@ -14,6 +14,10 @@ For Demo, you can access http://www.ones-app.com/phonenumber/
 # apt-get install python-pip
 # pip install phonenumbers flask dicts
 ```
+API Services can directly be run by following command:
+```
+# python libphonenumber-api/phonenumber/__init__.py &
+```
 ## Apache
 ```
 # apt-get install libapache2-mod-wsgi
