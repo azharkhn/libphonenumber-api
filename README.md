@@ -6,7 +6,7 @@ This is a python based API wrapped from Google libphonenumber library.
 * Phonenumber’s Length must be within range of 4 to 20.
 
 # Demo
-For Demo, you can access http://www.ones-app.com/phonenumber/
+For Demo, you can use URL http://phonenumber.ones-app.com/
 
 # Dependencies
 ## Python 
